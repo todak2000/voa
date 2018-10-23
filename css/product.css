@@ -132,14 +132,37 @@
   .hr{
     /* margin-left: 10%;
     margin-right: 10%; */
-    margin:0 auto;
+    
     background-color: #979797;
     height: 2px;
     width: 70%;
+    margin:0 auto;
     margin-top: 3vh;
     margin-bottom: 3vh;
   }
   .onea{
     height: 45vh;
     border: 1px solid #E8E8E8;
+  }
+  .about{
+    width: 70%;
+    margin:0 auto;
+  }
+  .inp{
+    background-color: #F8F8F8;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1.5em;
+    height: 54px;
+    padding: 0.5em 3.5em 0.5em 1em;
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+  }
+  .form{
+      width:60%;
   }
