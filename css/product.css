@@ -127,7 +127,21 @@
       height: 8vh; 
       margin-top:0.5vh; 
       margin-bottom:0.5vh;
-      
+      /* background: url(../img/product1.png); */
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .rotated45 {
+    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+    margin-top:10px;
+  }
+  .rotated90 {
+    transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+    margin-top:10px;
+  }
+  .rotated300 {
+    transform: rotate(300deg); /* Equal to rotateZ(45deg) */
+    margin-top:10px;
   }
   .hr{
     /* margin-left: 10%;
@@ -143,6 +157,10 @@
   .onea{
     height: 45vh;
     border: 1px solid #E8E8E8;
+    object-fit: fill;
+    background: url(../img/product.png);
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .about{
     width: 70%;
