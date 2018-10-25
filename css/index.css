@@ -195,8 +195,6 @@ a:hover{
     background-color: #fff;
     z-index: 2;
 	cursor: pointer;
-	/* transition: 5s; */
-
 	-webkit-animation: left2right 2s; /* Safari 4.0 - 8.0 */
     animation: left2right 0.1s ;
 }
@@ -229,3 +227,14 @@ a:hover{
     100% {background-color: rgba(255, 255, 255, 1); width: 0%;}
 }
 
+
+/* RESPONSIVEEVEINES */
+@media (max-width: 767px){
+	body{
+		overflow-y:auto;
+	}
+	.rmt{
+		margin-top:10%;
+	}
+
+}
