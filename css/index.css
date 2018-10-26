@@ -155,9 +155,7 @@ a:hover{
 	padding: 0 10px 0 20px;
 	font-size:12px;
 }
-.mub{
-	padding-top:20px;
-}
+
 
 /* overlay index */
 /* overlay */
@@ -235,6 +233,23 @@ a:hover{
 	}
 	.rmt{
 		margin-top:10%;
+		margin-bottom: 5px;
 	}
-
+	.rm{
+		margin-bottom: 5px;
+	}
+	.bum{
+		padding: 0 ;
+	}
+	.video-inner{
+		height: 10vh;
+		width:auto;
+		border-radius:10px;
+		background-color: #F1F3F4;
+	}
+	.container-audio {
+		width: 100%;
+		height: 60%;
+	}
+	
 }

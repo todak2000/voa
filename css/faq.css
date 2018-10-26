@@ -36,3 +36,11 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+@media(max-width: 767px) {
+    .accordion {
+        font-size: 11px;
+    }
+    .reduce{
+        font-size:11px;
+    }
+}

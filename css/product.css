@@ -1,3 +1,6 @@
+.col-xs-3, .col-xs-9, .col-xs-4, .col-xs-12, .col-sm-12{
+    padding:0;
+}
 .body{
     padding: 0 5% 0 5%;
     height: 90vh;
@@ -183,4 +186,73 @@
   }
   .form{
       width:60%;
+  }
+  @media(max-width: 767px) {
+      .hr{
+          margin-top:12vh;
+          width: 100%;
+          /* margin:0; */
+      }
+      .about{
+          margin:0;
+          width:100%;
+          
+      }
+      .header{
+          padding-top: 12px;
+      }
+      .logo{
+          margin-left:-15px;
+      }
+      .map{
+          margin-left:0;
+      }
+      .form{
+        width:100%;
+    }
+    .inp{
+        background-color: #F8F8F8;
+        border-radius: 4px;
+        display: inline-block;
+        line-height: 1.5em;
+        height: 34px;
+        padding: 0.5em 3.5em 0.5em 1em;
+        border: 1px solid #D4D4D4;
+        border-radius: 5px;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+      }
+      .bod {
+        padding: 0 5% 0 5%;
+        height: auto;
+        margin-top:10vh;
+    }
+    .menu {
+        border-right: 1px solid #979797;
+    }
+    .kora{
+        margin-top:15px;
+        margin-bottom: -10px;
+    }
+    .underline {
+        font-size: 12px;
+        text-align: center;
+    }
+    .pro{
+        overflow-y: auto;
+    }
+    .bood{
+        padding: 10vh 5% 5% 5%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .rf{
+        padding:0;
+    }
+    .igm {
+        height: 40vh;
+    }
   }
